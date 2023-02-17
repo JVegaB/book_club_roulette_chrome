@@ -1,0 +1,17 @@
+html {
+    /*This line is to avoid the full heigth of the default popup, now addaping to the size of the form being displayed*/
+    height: 0;
+}
+ul#book-list-preview {
+    max-height: 15rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+ul#book-list-preview li{
+    width: 30rem;
+}
+
+section#root {
+    width: 35rem;
+}
